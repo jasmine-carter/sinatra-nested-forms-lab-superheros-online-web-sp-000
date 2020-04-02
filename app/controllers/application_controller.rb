@@ -20,6 +20,7 @@ class App < Sinatra::Base
       @hero_3_name = params[:team][:heroes][2][:name]
       @hero_3_power = params[:team][:heroes][2][:power]
       @hero_3_biography = params[:team][:heroes][2][:biography]
+      erb :team
     end
 
 end
