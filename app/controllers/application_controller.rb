@@ -8,4 +8,9 @@ class App < Sinatra::Base
       erb :create_team
     end
 
+    post '/teams'
+    do
+      erb :team
+    end
+
 end
